@@ -1,0 +1,24 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "dynamicImport": true,
+      "decorators": true,
+      "decoratorsBeforeExport": true
+    },
+    "transform": {
+      "decoratorMetadata": true
+    }
+  },
+  "env": {
+    "targets": [
+      "last 4 chrome version",
+      "last 4 firefox version",
+      "last 4 edge version",
+      ">= 0.1% in my stats and last 2 years",
+      "Firefox ESR",
+      "not dead"
+    ]
+  }
+}
